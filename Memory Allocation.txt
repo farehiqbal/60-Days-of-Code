@@ -1,0 +1,34 @@
+A typical memory allocation of a C program looks like this:
+
+1. Text segment.
+    The code or siply the text
+
+2. Iniialized data segment.
+    Global and static variables initialzied by programmer, read and write both. 
+
+3. Unitialized data segment.
+    Store the un intiliazed varibles, such as int i;
+
+4. Heap.
+    Where dynamic memory allocation usuallly takes place.
+    Memory is allocated during the execution.
+    Objects are always created in heap space and referecen information is stored in the stack memory.
+    Heap memory is accessible to all threads, maming it unsafe.
+
+5. Stack.
+    Where automatic variables are stored. When a function is called, the address of where to return the address is stored in stack. A newly called function, reserves room on stack, each time a new stack frame is made, in this way variables of a function doesnot interfare other functions. Thats what happens in recursion. 
+    - Temporary memory Allocation, it executes all data belonging to a method and flushed it out automatically once it is over. 
+
+    stack memory < heap memory.
+
+
+
+|CLA and env variables|  -> High address
+|        Stack        |
+|                     |
+|        Heap         |
+
+|     un-i ds, bss    |
+|         bs          |
+|        data         |  -> low address
+
