@@ -14,12 +14,12 @@ public class Main {
 
         player2.damagebyGun2();
 
-        Player1 upcast = new Player2("Upcasting", "Upcast", 100, true);
+        // Player1 upcast = new Player2("Upcasting", "Upcast", 100, true);
 
         // The parent class refernce variable can refer the child class object, knows as upcasting.
         // Player1 is the parent class and Player2 is the subclass/childclass.
 
-        
+
 
 
         
