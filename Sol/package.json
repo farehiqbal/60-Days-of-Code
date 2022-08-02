@@ -1,0 +1,19 @@
+{
+  "name": "60-days-of-code",
+  "version": "1.0.0",
+  "description": "Spammm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farehiqbal/60-Days-of-Code.git"
+  },
+  "author": "farehhhhhhh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farehiqbal/60-Days-of-Code/issues"
+  },
+  "homepage": "https://github.com/farehiqbal/60-Days-of-Code#readme"
+}
