@@ -4,7 +4,7 @@
   "description": "Spammm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/farehiqbal/60-Days-of-Code#readme",
   "dependencies": {
-    "solc": "^0.8.16"
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.16",
+    "web3": "^1.7.5"
   }
 }
