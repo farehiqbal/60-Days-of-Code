@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/farehiqbal/60-Days-of-Code/issues"
   },
-  "homepage": "https://github.com/farehiqbal/60-Days-of-Code#readme"
+  "homepage": "https://github.com/farehiqbal/60-Days-of-Code#readme",
+  "dependencies": {
+    "solc": "^0.8.16"
+  }
 }
