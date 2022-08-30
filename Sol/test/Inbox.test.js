@@ -3,6 +3,7 @@ const ganache = require ('ganache-cli');
 const { isTypedArray } = require('util/types');
 const Web3 = require ('web3');
 const {abi, evm} = require('../compile');
+const provider = ganache.provider();
 
 const web3 = new Web3(ganache.provider());
 
