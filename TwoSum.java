@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
