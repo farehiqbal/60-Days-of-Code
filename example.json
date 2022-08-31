@@ -1,0 +1,13 @@
+{
+    "name": "noob",       
+    "score": 111.1,
+    "isAdmin" : false,
+    "skill": null,
+    "items": ["mango", "mango-supremacy"],
+    "objects" : {
+        "obj1" : "obj1value",
+        "obj2" : "objvalue2"
+    }
+
+
+}
