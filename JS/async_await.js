@@ -7,7 +7,7 @@ async function func() {
 
   const responce = await fetch("https://api.gihub.com/users");
 
-  console.log("before respince");
+  console.log("before responce");
 
   const users = await responce.json();
 

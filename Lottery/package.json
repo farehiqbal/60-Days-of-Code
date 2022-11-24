@@ -1,0 +1,25 @@
+{
+  "name": "60-days-of-code",
+  "version": "1.0.0",
+  "description": "Spammm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farehiqbal/60-Days-of-Code.git"
+  },
+  "author": "farehhhhhhh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farehiqbal/60-Days-of-Code/issues"
+  },
+  "homepage": "https://github.com/farehiqbal/60-Days-of-Code#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.16",
+    "web3": "^1.7.5"
+  }
+}
