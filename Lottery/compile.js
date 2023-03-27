@@ -2,8 +2,8 @@ const path = require("path");
 const fs = require("fs");
 const solc = require("solc");
 
-const LotteryPath = path.resolve(__dirname, "contracts", "Lottery.sol");
-const source = fs.readFileSync(LotteryPath, "utf8");
+const lotteryPath = path.resolve(__dirname, "contracts", "Lottery.sol");
+const source = fs.readFileSync(lotteryPath, "utf8");
 
 /***
  * The recommended way to interface with the Solidity compiler, especially for more
@@ -35,6 +35,5 @@ const input = {
 };
 
 const output = JSON.parse(solc.compile(JSON.stringify(input)));
-// console.log(output);
 
 module.exports = output.contracts["Lottery.sol"].Lottery;
